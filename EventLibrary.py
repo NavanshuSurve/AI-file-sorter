@@ -30,7 +30,8 @@ def embedding(filename):
 
     index=np.argmax(similarities)#most similar index
     if similarities<0.4:
-        call_llama()
+        print("UnderProgress")
+        #call_llama()
 
     else:
         best_folder=foldernames[index]
